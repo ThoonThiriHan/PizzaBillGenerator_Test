@@ -6,7 +6,10 @@ public class Main {
 //        basedPizza.takeAway();
 //        basedPizza.getBill();
 
-        DeluxPizza dp =  new DeluxPizza(true);
+        DeluxPizza dp =  new DeluxPizza(false);
+//        dp.addExtraCheese();
+//        dp.addExtraToppings();
+        dp.takeAway();
         dp.getBill();
     }
 }
