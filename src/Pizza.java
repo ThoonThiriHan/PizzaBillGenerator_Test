@@ -24,19 +24,16 @@ public class Pizza {
 
     public void addExtraCheese(){
         isExtraCheeseAdded = true;
-        System.out.println("Extra cheese added");
         this.price += extraCheesePrice;
     }
 
     public void addExtraToppings(){
         isExtraToppingsAdded = true;
-        System.out.println("Extra Toppings Added");
         this.price += extraToppingPrice;
     }
 
     public void takeAway(){
         isOptedForTakeAway = true;
-        System.out.println("Take away opted");
         this.price += backPackPrice;
     }
 
