@@ -11,6 +11,26 @@ public class Pizza {
         }
     }
 
+    private void addExtraChesse(){
+
+    }
+
+    public void addExtraToppings(){
+
+    }
+
+    public void takeAway(){
+
+    }
+
+    public void getBill(){}
+
+
+//    public void getPizzaPrice(){
+//        System.out.println(this.price);
+//    }
+
+
 
 
 }
